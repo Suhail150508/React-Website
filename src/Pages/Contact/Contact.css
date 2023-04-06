@@ -1,0 +1,52 @@
+
+.label{
+    font-size: 1.5rem;
+ 
+}
+
+input{
+    text-align: center;
+    border: 3px solid black;
+ 
+}
+
+.label .input1{
+    margin-left: 2rem;
+   
+}
+.label .input2{
+    margin-left: 5rem;
+}
+.label .input3{
+    margin-left: 2.5rem;
+}
+.label .input4{
+    margin-left: 1rem;
+}
+
+.btn{
+    font-size: 1.8;
+}
+
+
+.contact{
+   display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    row-gap:3rem;
+    width: 100%;
+}
+.contact-left{
+    width: 45%;
+
+}
+.contact-left img{
+    width: 900px;
+    height: 100%;
+  
+
+}
+.contact-right{
+    width: 40%;
+    margin-left: 8rem;
+}

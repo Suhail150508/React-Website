@@ -1,0 +1,57 @@
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    margin-right: 36.9rem;
+    width: 102%;
+
+    margin-top: .2rem;
+
+   
+ 
+}
+li{
+    display: flex;
+    flex-direction: column;
+}
+.header .logo h1{
+    margin:20PX 45px;
+    color: white;
+    animation: slideRightNb 1s;
+}
+.header .logo :hover{
+    transform: rotate(350deg); 
+    transition: 1s;
+    color:fuchsia
+}
+.navbar{
+  margin-top: 1rem;
+ margin-right: 100px;
+
+}
+
+
+.navbar .nblink{
+    position: relative;
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color:white;
+    transition: .5s;
+    opacity: 1;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+ 
+}
+
+ .nblink:hover,
+ .nblink.active{
+   color: #f0e;
+   padding-bottom: 10px;
+   transition: .9s;
+}
+
+
+
+    
