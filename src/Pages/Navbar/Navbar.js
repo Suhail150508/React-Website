@@ -15,7 +15,7 @@ const [newNavbar, setNewNavbar]=useState(false);
     <main >
  <div class="header  ">
             <div class="logo">
-               <h1>Junaid</h1> 
+               <h1><span style={{color:"#0e2",fontSize:"2.5rem"}}>J</span>unaid</h1> 
             </div>
 
 
@@ -37,7 +37,7 @@ const [newNavbar, setNewNavbar]=useState(false);
                 setOpenBtn(false)&
                 setCloseBtn(true)&
                 setNewNavbar(true)
-              } ><i class="fa-solid fa-bars"></i></button>
+              } style={{margin:"2rem"}}><i class="fa-solid fa-bars"></i></button>
             }
             {
 

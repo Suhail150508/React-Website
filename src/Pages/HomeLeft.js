@@ -1,17 +1,18 @@
 import React from 'react'
 import Typed from 'react-typed';
+import './HomeLeft.css'
 
 const HomeLeft = () => {
   return (
     <div >   
         
-   <div class="home-content text-center col-lg-8  " style={{marginTop:"10rem"}}>
-    <h3> <span style={{color:"#f0e",fontSize:"1.9rem"}}>Hello</span>, It's Me</h3>
-    <h1 class="hi py-3" >Suhail</h1>
+   <div class="home-content  " >
+    <h3> <span style={{color:"#f0e",fontSize:"1.3rem"}}>Asslamu-Alaikum</span></h3>
+    <h1 class="hi py-3" > <span>I am </span>Suhail</h1>
     <h3> And I'm a...    
 
-    <Typed  
-            strings={[ " Frontend Developer.","Backend Developer.",'B.Sc. Engineering in ETE']}
+    <Typed className='type'
+            strings={[ " Frontend Designer.","Backend Developer.",'B.Sc. Engineering in ETE']}
             typeSpeed={100}
             backSpeed={100}
             backDelay={1000}
@@ -19,9 +20,8 @@ const HomeLeft = () => {
            
         />
 
-  
        </h3>
-    <p className='para'>I Am A Web Designer And Developer.This Website has designed by using html,css,Bootstrap,javascript and react js.</p>
+   <h5 className='para'>It is Portfolio Project . This website is designed by using html-5, CSS-3, Bootstrap, React js</h5>
    <div class="social-media">
     <a href="https://www.facebook.com/profile.php?id=100008827057336"><i class="fa-brands fa-facebook " style={{color:"#ff014f"}}></i></a>
     <a href="https://www.youtube.com/watch?v=kS3HK5dtVGg"><i class="fa-brands fa-square-youtube "  style={{color:"#ff014f"}}></i></a>

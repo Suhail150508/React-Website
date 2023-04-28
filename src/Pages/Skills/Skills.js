@@ -1,13 +1,14 @@
 import React from 'react'
+import './Skills.css'
 
 const Skills = () => {
   return (
     <div>
-         <div className="skills-para"style={{borderBottom:"3px solid white",paddingBottom:"1.3rem",fontSize:"1.3rem",textAlign:"center",width:"18%",color:"#0fe",fontWeight:"bolder"}}>MY SKILL'S</div>
+ <div className="skills-para"style={{borderBottom:"3px solid white",paddingBottom:"1.3rem",fontSize:"1.3rem",textAlign:"center",width:"18%",color:"#0fe",fontWeight:"bolder"}}>MY SKILL'S</div>
 
-<div className="skills">
+<div className="skills" style={{marginRight:"5rem"}}>
 
-  <div classsName="Nameskills1">
+  <div classsName="skills1">
    <div className="div1" style={{marginLeft:"4rem"}}>HTML <span>80%</span> </div>
   <div className="bar1"></div>
   </div>

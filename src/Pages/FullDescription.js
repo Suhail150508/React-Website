@@ -13,7 +13,7 @@ function FullDescription() {
   return (
     <div>
         <Navbar/>
-        <div className=''style={{width:"70%", margin:"auto",fontSize:"1.3rem",padding:"5rem"}}>
+        <div className=''style={{width:"100%", margin:"auto",fontSize:"1.3rem",padding:"3rem"}}>
         <h2 style={{fontWeight:"bolder"}}>{title}</h2>
 <p>  {location.state.descr.slice(0,300)}  </p>
 <p>  {location.state.descr.slice(300,500)}  </p>

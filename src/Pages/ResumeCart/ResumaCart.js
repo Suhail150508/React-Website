@@ -26,7 +26,7 @@ else{
                 <span className='light' style={{height:"25px",width:"25px",top:"-.3rem",left:"-8px", borderRadius:"12px",backgroundColor:"black",position:"absolute",}}><span style={{height:"12px",width:"12px",borderRadius:"6px",backgroundColor:"red",position:"absolute",top:"6.5px",left:"5.9px"}}></span></span>
             </div>
             <div className='text-center p-3'>
-          <h1>{title}</h1>
+          <h3 className='text-primary'>{title}</h3>
           <p>{concate(descr,50)}</p>
           <Link to={title}  state={{descr}} style={{color:"#e0f"}}>learn more</Link>
             </div>

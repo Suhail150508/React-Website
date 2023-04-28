@@ -5,10 +5,10 @@ const Projects = () => {
   return (
     <div>
 
-   <div className='' style={{marginLeft:"2rem",width:"100%",height:"100vh",display:"flex",justifyContent:"space-between",marginTop:"4rem "}}>
-   <div className='col'>
+   <div className='project row' style={{width:"100%",height:"auto",display:"flex",justifyContent:"space-between",marginTop:"4rem "}}>
+   <div className='project-left col-sm-12 col-lg-6'>
         <p className='text-danger'>2023</p>
-        <h2>Projects</h2>
+        <h2 className='font-text'>Projects</h2>
         <div className=' text-info 'style={{height:"830px",width:"100%",borderLeft:"10px solid black",marginLeft:"2rem",display:"flex",flexDirection:"column",gap:"1rem",marginTop:"2rem"}}>
          <ResumeCart 
          title="Calculator"
@@ -24,9 +24,9 @@ const Projects = () => {
          />
         </div> 
     </div> 
-   <div className='col'>
+   <div className='project-right col-sm-12 col-lg-6'>
         <p className='text-danger'>2023</p>
-        <h2>Projects</h2>
+        <h2 className='font-text'>Projects</h2>
         <div className=' text-info 'style={{height:"830px",width:"100%",borderLeft:"10px solid black",marginLeft:"2rem",display:"flex",flexDirection:"column",gap:"1rem",marginTop:"2rem"}}>
          <ResumeCart 
          title="Calculator"

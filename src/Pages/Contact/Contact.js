@@ -4,6 +4,10 @@ import contactImage from '../Assests/contact-image1.jpg'
 import './Contact.css'
 
 function Contact() {
+  const handleSubmit=()=>{
+alert("Successfull")
+
+  }
   return (
     <div>
       <Navbar/>
@@ -18,12 +22,12 @@ function Contact() {
 <img className=' contact-image img-fluid' src={contactImage} alt="img"/>
 </div>
         <div className='contact-right'>
-        <form>
-          <label className=' label mt-4'>Username: <input className='input1 ' type="text" name="username" placeholder='username'/></label><br/>
-          <label className=' label mt-4'>Email: <input className='input2 ' type="text" name="email" placeholder='email'/></label><br/>
-          <label className=' label mt-4'>Password: <input className='input3 ' type="text" name="password" placeholder='password'/></label><br/>
-          <label className=' label mt-4'>Description: <input className='input4 ' type="textarea" name="description" placeholder='description'/></label><br/>
-          <button className='btn btn-outline-praimary text-center text-danger bg-warning p-2 mt-4' type='submit'onClick={()=>alert("...Successfull...")}>Submit</button>
+        <form onSubmit={handleSubmit}>
+          <label className=' label mt-4'>Username: <input className='input1 ' type="text" required name="username" placeholder='username'/></label><br/>
+          <label className=' label mt-4'>Email: <input className='input2 ' type="text" required name="email" placeholder='email'/></label><br/>
+          <label className=' label mt-4'>Password: <input className='input3 ' type="text" required name="password" placeholder='password'/></label><br/>
+          <label className=' label mt-4'>Description: <input className='input4 ' type="textarea" required name="description" placeholder='description'/></label><br/>
+          <button className='btn btn-outline-praimary text-center text-danger bg-warning p-2 mt-4' type='submit'>Submit</button>
         </form>      
         </div>
 

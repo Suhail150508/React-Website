@@ -1,4 +1,29 @@
-@media screen and (max-width:1100px) {
+.div-resume{
+  box-shadow:10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+
+.resume-ul{
+
+}
+.li1{
+
+  font-size: 2rem;
+}
+.education{
+  margin-left:2rem ;
+}
+.project{
+
+}
+.font-text{
+  font-size:1.6rem ;
+}
+
+@media screen and (max-width:1200px) {
+  .li1{
+
+    font-size: 2rem;
+  }
     
 }
 
@@ -7,8 +32,29 @@
 
 
 @media screen and (max-width:600px) {
-    .projects{
-        width: 100%;
-      margin-bottom: 7rem;
+
+    .li1{
+      font-size: 1.1rem;
     }
+    .div-resume{
+      box-shadow:10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    
+    }
+.resume-ul{
+
+  margin-right:5rem ;
+}
+
+.education{
+  margin-left:.1rem ;
+}
+
+.font-text{
+  font-size:1.2rem ;
+
+}
+.text-info{
+  margin-left: -6rem;
+}
+
 }

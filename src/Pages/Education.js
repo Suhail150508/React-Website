@@ -5,10 +5,10 @@ const Education = () => {
   return (
     <div style={{width:"100%",height:"auto"}}>
 
-   <div className='' style={{marginLeft:"2rem",display:"flex",justifyContent:"space-between",marginTop:"4rem "}}>
-   <div className='col'>
+   <div className='education row' style={{display:"flex",justifyContent:"space-between",marginTop:"1rem "}}>
+   <div className='col-sm-12 col-lg-6'>
         <p className='text-danger'>2014-2015</p>
-        <h3 >Education Quality</h3>
+        <h3 className='font-text'>Education Quality</h3>
         <div className=' text-success 'style={{height:"830px",width:"100%",borderLeft:"10px solid black",marginLeft:"2rem",display:"flex",flexDirection:"column",gap:"1rem",marginTop:"2rem",}}>
          <ResumeCart 
          title="B.Sc.in ( ETE ) "
@@ -24,9 +24,9 @@ const Education = () => {
          />
         </div> 
     </div> 
-    <div className='col'>
+    <div className='col-sm-12 col-lg-6'>
         <p className='text-danger'>2014-2015</p>
-        <h3> Programming Quality</h3>
+        <h3 className='font-text'> Programming Quality</h3>
         <div className=' text-primary 'style={{height:"830px",width:"100%",borderLeft:"10px solid black",marginLeft:"2rem",display:"flex",flexDirection:"column",gap:"1rem",marginTop:"2rem"}}>
          <ResumeCart 
         title='Static Website'

@@ -19,7 +19,7 @@ function Portfolio() {
   return (
     <div className='container-fluid'>
 
-        <div className='fixed-top bg-dark'> 
+       <div className=' navmain fixed-top bg-dark'> 
       
         <Navbar/>
         </div>
@@ -27,16 +27,18 @@ function Portfolio() {
          <div>
 
         <section class="row home mt-5">
-        <div className='img1 col-sm-12'> <Image/> </div>
+        <div className='img1 col-sm-12 text-center'> <Image/> </div>
      
-        <div className='col-lg-7 text-center'> <HomeLeft/></div>
-        <div className='col-lg-5 '>   <HomeRight/></div>
+        <div className='col-lg-7 col-sm-12 text-center '> <HomeLeft/></div>
+        <div className='col-lg-5  col-sm-12'>   <HomeRight/></div>
      
        </section>
        </div>
 {/* ........about me from here....... */}
-
+<div className='aboutme'>
 <Aboutme/>
+</div>
+
 
 {/*......... my-servicess from here........... */}
 <div >
@@ -57,18 +59,14 @@ function Portfolio() {
 <Resume />
 
 </div>
-{ /*..................Skills from here.....................*/}
-    
-     <div>
-  
- {/* <Skills/> */}
-  </div>
+    {/*............ contact from here...... */}
+    <div >
+    <Contactcode/>
+    </div>
 
-      {/*............ contact from here...... */}
-<Contactcode/>
 
       <div className='footer' >
-        <div className='bg-footer' style={{position:"relative",height:"100vh"}}>
+        <div className='bg-footer' style={{position:"relative",height:"auto"}}>
           <img style={{height:"100vh",width:"100%"}} src={footer} alt="img"/>
           <div className='footer-info row  p-5 ' style={{position:"absolute",top:"2px",}}>
             <div className=' col-6 col-md-6 col-lg-3 mt-sm-2 mt-lg-5 ' style={{marginTop:"4rem"}}>
@@ -101,9 +99,9 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <marquee className="mb-3 py-2"><span className='text-warning'>..........</span>
+        {/* <marquee className="mb-3 py-2"><span className='text-warning'>..........</span>
 
-আল্লাহ ছাড়া কোন মালিক নেই | .......... আল্লাহ সব কিছুর উপর সর্বশক্তিমান।</marquee>
+আল্লাহ ছাড়া কোন মালিক নেই | .......... আল্লাহ সব কিছুর উপর সর্বশক্তিমান।</marquee> */}
       </div>
       
     </div>

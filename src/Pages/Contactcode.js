@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 
-function Contactcode() {
+function   Contactcode() {
  const navigate=useNavigate();
 const initialValues = { username: "", email: "", password: "" };
 const [formValues, setFormValues] = useState(initialValues);
@@ -71,7 +71,7 @@ const valit =(values)=>{
 
 
   return (
-    <div > 
+    <div style={{marginTop:"-20rem"}} > 
       <div className='bg-dark contact-section py-2'>
          <h1 className=' py-2' style={{
         width:"15rem",margin:" auto",color:"#0fe",marginBottom:"3rem",
