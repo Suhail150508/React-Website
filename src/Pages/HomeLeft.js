@@ -8,7 +8,7 @@ const HomeLeft = () => {
         
    <div class="home-content  " >
     <h3> <span style={{color:"#f0e",fontSize:"1.3rem"}}>Asslamu-Alaikum</span></h3>
-    <h1 class="hi py-3" > <span>I am </span>Sohel</h1>
+    <h1 class="hi py-3" > <span>I am </span>Sohel Rana</h1>
     <h3> And I'm a...    
 
     <Typed className='type'
