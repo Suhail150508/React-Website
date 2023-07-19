@@ -25,7 +25,7 @@ const Skills = () => {
    <div className="bar4"></div>
 </div>
 <div className="skills5">
-   <div class="div5">Node js <span>40%</span> </div>
+   <div class="div5">Laravel <span>60%</span> </div>
    <div class="bar5"></div>
 </div>
  

@@ -20,7 +20,7 @@ function MyService() {
    
       <h1 className=' py-2' style={{
           borderBottom:"3px solid white",width:"15rem",margin:"auto",color:"#0fe",marginBottom:"3rem"
-      }}>My-Servicess</h1>
+      }}>My-Skills</h1>
 
       <div className=' servicess '> 
  {

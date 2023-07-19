@@ -8,7 +8,7 @@ const HomeLeft = () => {
         
    <div class="home-content  " >
     <h3> <span style={{color:"#f0e",fontSize:"1.3rem"}}>Asslamu-Alaikum</span></h3>
-    <h1 class="hi py-3" > <span>I am </span>Suhail</h1>
+    <h1 class="hi py-3" > <span>I am </span>Sohel</h1>
     <h3> And I'm a...    
 
     <Typed className='type'
@@ -21,7 +21,7 @@ const HomeLeft = () => {
         />
 
        </h3>
-   <h5 className='para'>It is Portfolio Project . This website is designed by using html-5, CSS-3, Bootstrap, React js</h5>
+   <h5 className='para'>It is Portfolio Project . This project is designed by using html-5, CSS-3, Bootstrap, Javascript, React js</h5>
    <div class="social-media">
     <a href="https://www.facebook.com/profile.php?id=100008827057336"><i class="fa-brands fa-facebook " style={{color:"#ff014f"}}></i></a>
     <a href="https://www.youtube.com/watch?v=kS3HK5dtVGg"><i class="fa-brands fa-square-youtube "  style={{color:"#ff014f"}}></i></a>
